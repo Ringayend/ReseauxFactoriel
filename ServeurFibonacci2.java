@@ -1,4 +1,3 @@
-package core;
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -49,7 +48,7 @@ public class ServeurF {
              }//if 
      
      }//run
-      synchronized int Factoriel(int nb){
+      synchronized int Fibonacci2(int nb){
          try { boolean verif=true;
              while(verif) {
             	 int position = Exist(nb,Cache);
